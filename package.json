@@ -1,0 +1,24 @@
+{
+  "name": "Hajira-App",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "electron": "^12.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node_modules/electron/dist/electron"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzarif/Hajira-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zzarif/Hajira-App/issues"
+  },
+  "homepage": "https://github.com/zzarif/Hajira-App#readme"
+}
