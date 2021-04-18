@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hajira App</title>
+    <script src="user_home.js" defer></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <ul class="tabs">
+        <li class="active tab" data-tab-target="#status">Status</li>
+        <li class="tab" data-tab-target="#attendance">Attendance</li>
+        <li class="tab" data-tab-target="#logout">Logout</li>
+    </ul>
+    <div class="tab-content">
+        <div id="status" data-tab-content class="active">
+            <form class="form-content">
+                <div>
+                    <ul>
+                        <li>Day 1 Ok</li>
+                        <li>Day 2 Not Ok</li>
+                        <li>Day 3 Ok</li>
+                        <li>Day 4 Ok</li>
+                        <li>Day 4 Not Ok</li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+        <div id="attendance" data-tab-content>
+            <form class="form-content" action="main.html">
+                <div>
+                    <input type="datetime-local" placeholder="Date">
+                    <button type="submit">Present for Morning</button>
+                    <button type="submit">Present for Evening</button>
+                </div>
+            </form>
+        </div>
+        <div id="logout" data-tab-content>
+            <form class="form-content" action="main.html">
+                <div>
+                    <button type="submit">Confirm Logout</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

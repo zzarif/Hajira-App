@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hajira App</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <ul class="tabs">
+        <li class="active tab" data-tab-target="#login">Login</li>
+        <li class="tab" data-tab-target="#register">Register</li>
+        <li class="tab" data-tab-target="#admin">Admin</li>
+    </ul>
+    <div class="tab-content">
+        <div id="login" data-tab-content class="active">
+            <form class="form-content" action="user_home.html">
+                <div>
+                    <input type="tel" placeholder="Mobile">
+                    <input type="password" placeholder="Password">
+                    <button type="submit">Login</button>
+                </div>
+            </form>
+        </div>
+        <div id="register" data-tab-content>
+            <form class="form-content" action="user_home.html">
+                <div>
+                    <input type="tel" placeholder="Mobile">
+                    <input type="text" placeholder="Username">
+                    <input type="password" placeholder="Password">
+                    <input type="password" placeholder="Confirm Password">
+                    <button type="submit">Register</button>
+                </div>
+            </form>
+        </div>
+        <div id="admin" data-tab-content>
+            <form class="form-content" action="user_home.html">
+                <div>
+                    <input type="password" placeholder="Key">
+                    <button type="submit">Verify</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
